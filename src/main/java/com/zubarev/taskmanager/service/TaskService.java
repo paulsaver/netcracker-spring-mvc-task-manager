@@ -2,8 +2,6 @@ package com.zubarev.taskmanager.service;
 
 import com.zubarev.taskmanager.modal.Task;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.List;
 
 public interface TaskService {

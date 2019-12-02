@@ -18,17 +18,17 @@ public class Task {
     public Long getId() {
         return id;
     }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public Task(String taskName, String descriptionTask, Date date, String contacts){
         this.taskName=taskName;
         this.descriptionTask=descriptionTask;
         this.date =date;
         this.contacts=contacts;
     }
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+
 
     public String getTaskName(){
         return taskName;
